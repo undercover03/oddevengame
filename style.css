@@ -1,0 +1,88 @@
+body{
+    background:linear-gradient(to right,orange,yellow);
+    
+    background-size: cover;
+}
+header{
+    text-align: center;
+}
+.main{
+    border: solid black;
+    border-radius: 50px 25px 50 ;
+    margin: auto;   
+    width: fit-content;
+    margin-top: 5%;
+    background-color: rgba(230, 12, 12, 0.5);
+    height: 500px;
+}
+.names{
+    margin: auto;
+   color: rgb(11, 12, 10);
+    justify-content: space-around;
+    display: flex;
+
+}
+.name1{
+    
+    margin-top: 10%;
+   margin-left: 5%;
+
+}
+.name2{
+    margin-top: 10%;
+     margin-right: 5%;
+}
+.players{
+    color: rgb(20, 247, 20);
+display: flex;
+margin-top: 5px;
+   margin-bottom: 5%;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+.player1{
+    display: flex;
+   margin-left: 10px;
+   border: solid black;
+}
+.player2{
+    display: flex;
+    border: solid black;
+}
+.circle{
+  margin-left: 30px;
+    height: 20px;
+    width: 20px;
+    border: solid black;
+    border-radius: 50%;
+    margin:15px;
+}
+.scores{
+    display: flex;
+    
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.buttons{
+    display: flex;
+   margin: auto;
+   width: 50%;
+   margin-bottom: 7%;
+   justify-content: space-evenly;
+}
+#result{
+   text-align: center;
+   margin-bottom: 5%;
+   color: white;
+}
+button{
+    padding: 5px;
+    background-color: burlywood;
+    border: none;
+}
+button:hover{
+    background-color: red;
+  
+}
